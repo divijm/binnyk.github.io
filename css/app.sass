@@ -1,3 +1,7 @@
+body, h1, h2, h3, h4, h5, h6, p
+	font-family: "Avenir Next"
+
+
 
 
 // ======== HEADER and logo =========
@@ -12,6 +16,7 @@
 #main_logo
 	display: inline-block
 	height: 86px
+	margin-right: 20px
 
 .binnyk_main
 	display: inline-block
@@ -21,15 +26,20 @@
 		font-size: 64px
 		margin: 0px
 
+
 	#logo_desc
 		color: #4A4A4A
 		font-size: 18px
+		font-weight: 400
 		margin: 0px
+		margin-left: 4px
+		margin-top: 3px
 
 #main_highlight
 	color: #D5D5D5
 	border-top: 2px solid #D5D5D5
 	margin-top: 100px
+	margin-bottom: 100px
 	width: 90%
 	max-width: 900px
 
@@ -38,26 +48,80 @@
 .project_container
 	border: 1px solid #D5D5D5
 	border-radius: 5.5px
-	height: 350px
+	position: relative
+	min-height: 350px
 	width: 90%
-	max-width: 950px
+	max-width: 1000px
 	margin: 0 auto
-	margin-top: 100px
+	margin-top: 50px
 	box-shadow: 0px 0px 19px 1px rgba(219,215,219,1)
-
-	display: flex
+	box-sizing: border-box
+	padding-top: 30px
+	padding-left: 20px
 
 	.project_img_container
-		background-color: grey
-		box-sizing: border-box
+		background-repeat: none
+		background-size: 100%
+		background-repeat: no-repeat
+		background-position: center center
+		display: inline-block
+		height: 290px
+		width: 450px
+		margin: 0
+		margin-right: 40px
+		padding: 0
+		vertical-align: top
 
-		height: 260px
-		width: 420px
-		
 		.project_img
+			height: 290px
 			width: auto
-			height: auto
 
+	.project_info_container
+		display: inline-block
+		height: 290px
+		width: 460px
+		box-sizing: border-box
+		margin: 0
+		padding: 10px
+
+		ul
+			margin: 0
+			padding: 0
+			li
+				display: inline
+				margin: 0
+				padding: 0
+
+			.project_date
+				color: #ACB0C1
+				padding-right: 10px
+				font-weight: bold
+			.project_tag
+				font-weight: bold
+				margin-left: 25px
+			
+			.t_foundation
+				color: #3498db
+			.t_bootstrap
+				color: #9b59b6
+			.t_rails
+				color: #e74c3c
+			.t_node
+				color: #2ecc71
+			.t_react
+				color: #3498db
+
+		.project_header
+			font-size: 32px
+			font-weight: 600
+			color: #3C3F4F
+		.project_desc
+			color: #9CA0B4
+			font-size: 18px
+			line-height: 24px
+
+
+			
 
 
 
