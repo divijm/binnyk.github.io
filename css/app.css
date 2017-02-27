@@ -6,25 +6,25 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 #logo_container {
   display: block;
-  min-width: 400px;
-  width: 400px;
+  width: 310px;
+  min-width: 310px;
   margin: 0 auto;
   margin-top: 100px; }
 
-#main_logo {
-  display: inline-block;
-  height: 86px;
+#logo_img {
+  float: left;
+  height: 64px;
   margin-right: 20px; }
 
-.binnyk_main {
-  display: inline-block; }
-  .binnyk_main #logo_main {
+.logo_right_container {
+  float: left; }
+  .logo_right_container #logo_title {
     color: #3C3F4F;
-    font-size: 64px;
+    font-size: 42px;
     margin: 0px; }
-  .binnyk_main #logo_desc {
+  .logo_right_container #logo_subtitle {
     color: #4A4A4A;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0px;
     margin-left: 4px;
@@ -96,6 +96,28 @@ body, h1, h2, h3, h4, h5, h6, p {
       line-height: 24px; }
 
 @media screen and (min-width: 768px) {
+  #logo_container {
+    width: 350px;
+    min-width: 350px; }
+
+  .logo_right_container {
+    padding-top: 6px; }
+
+  #logo_img {
+    height: 74px;
+    margin-right: 20px; }
+
+  #logo_title {
+    font-size: 64px; }
+
+  #logo_subtitle {
+    color: #4A4A4A;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    margin-left: 4px;
+    margin-top: 3px; }
+
   .project_container {
     max-width: 1000px; }
     .project_container .project_img_container {

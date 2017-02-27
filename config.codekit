@@ -40,7 +40,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1503,
+		"initialSize": 3232,
 		"inputAbbreviatedPath": "\/img\/temp_logo.png",
 		"outputAbbreviatedPath": "\/img\/temp_logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -131,7 +131,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Binny.Kim",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_gray"
+	"iconImageName": "compass_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
