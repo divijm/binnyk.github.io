@@ -51,7 +51,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 416706,
+		"initialSize": 552425,
 		"inputAbbreviatedPath": "\/img\/test_img1.png",
 		"outputAbbreviatedPath": "\/img\/test_img1.png",
 		"outputPathIsOutsideProject": 0,
@@ -62,7 +62,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 141221,
+		"initialSize": 202442,
 		"inputAbbreviatedPath": "\/img\/test_img2.png",
 		"outputAbbreviatedPath": "\/img\/test_img2.png",
 		"outputPathIsOutsideProject": 0,
@@ -73,7 +73,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 273452,
+		"initialSize": 372816,
 		"inputAbbreviatedPath": "\/img\/test_img3.png",
 		"outputAbbreviatedPath": "\/img\/test_img3.png",
 		"outputPathIsOutsideProject": 0,
@@ -99,15 +99,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/readme.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/readme.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/readme.md": {
 		"criticStyle": 0,
