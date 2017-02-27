@@ -1,6 +1,8 @@
 body, h1, h2, h3, h4, h5, h6, p
 	font-family: "Avenir Next"
 
+.clearfix
+	overflow: auto
 
 
 
@@ -44,45 +46,33 @@ body, h1, h2, h3, h4, h5, h6, p
 	max-width: 900px
 
 // ============ PROJECTS =============
+#projects
+	padding: 0 15px
 
 .project_container
 	border: 1px solid #D5D5D5
 	border-radius: 5.5px
-	position: relative
-	min-height: 350px
-	width: 90%
-	max-width: 1000px
+	min-height: 200px
+	max-width: 630px
 	margin: 0 auto
 	margin-top: 50px
 	box-shadow: 0px 0px 19px 1px rgba(219,215,219,1)
 	box-sizing: border-box
-	padding-top: 30px
-	padding-left: 20px
-
+	padding: 15px
+	
 	.project_img_container
-		background-repeat: none
-		background-size: 100%
-		background-repeat: no-repeat
-		background-position: center center
-		display: inline-block
-		height: 290px
-		width: 450px
-		margin: 0
-		margin-right: 40px
-		padding: 0
-		vertical-align: top
-
-		.project_img
-			height: 290px
-			width: auto
+		height: auto
+		max-width: 600px
+		margin: 0 auto
+		img
+			width: 100%
 
 	.project_info_container
-		display: inline-block
-		height: 290px
-		width: 460px
-		box-sizing: border-box
-		margin: 0
-		padding: 10px
+		height: auto
+		max-width: 600px
+		margin: 0 auto
+		.project_tag_container
+			display: none
 
 		ul
 			margin: 0
@@ -112,16 +102,45 @@ body, h1, h2, h3, h4, h5, h6, p
 				color: #3498db
 
 		.project_header
-			font-size: 32px
-			font-weight: 600
+			font-size: 18px
+			font-weight: bold
 			color: #3C3F4F
 		.project_desc
 			color: #9CA0B4
-			font-size: 18px
+			font-size: 16px
 			line-height: 24px
 
+	
 
-			
+@media screen and (min-width: 768px)
+
+	.project_container
+		max-width: 1000px
+	
+		.project_img_container
+			box-sizing: border-box
+			float: left
+			width: 50%
+			padding: 10px
+
+		.project_info_container
+			box-sizing: border-box
+			float: left
+			width: 50%
+			padding: 10px 15px
+
+			.project_tag_container
+				display: block
+
+			.project_header
+				font-size: 24px
+				font-weight: bold
+
+
+
+
+
+
 
 
 
