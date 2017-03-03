@@ -1,16 +1,27 @@
+$main_highlight: #F59F40
+$border_grey: #D5D5D5
+$sub_header_grey: #ACB0C1
+$header: #3C3F4F
+$content_grey: #9CA0B4
+
+
 body, h1, h2, h3, h4, h5, h6, p
 	font-family: "Avenir Next"
 
 .clearfix
 	overflow: auto
 
-
+#horizontal
+	color: $border_grey
+	border-top: 1px solid $border_grey
+	margin-top: 100px
+	margin-bottom: 100px
+	width: 90%
+	max-width: 900px
 
 // ======== HEADER and logo =========
 #logo_container
-	display: block
-	width: 310px
-	min-width: 310px
+	width: 230px
 	margin: 0 auto
 	margin-top: 100px
 
@@ -24,7 +35,7 @@ body, h1, h2, h3, h4, h5, h6, p
 	float: left
 
 	#logo_title
-		color: #3C3F4F
+		color: $header
 		font-size: 42px
 		margin: 0px
 
@@ -37,20 +48,14 @@ body, h1, h2, h3, h4, h5, h6, p
 		margin-left: 4px
 		margin-top: 3px
 
-#main_highlight
-	color: #D5D5D5
-	border-top: 2px solid #D5D5D5
-	margin-top: 100px
-	margin-bottom: 100px
-	width: 90%
-	max-width: 900px
+
 
 // ============ PROJECTS =============
 #projects
 	padding: 0 15px
 
 .project_container
-	border: 1px solid #D5D5D5
+	border: 1px solid $border_grey
 	border-radius: 5.5px
 	min-height: 200px
 	max-width: 630px
@@ -82,9 +87,9 @@ body, h1, h2, h3, h4, h5, h6, p
 				padding: 0
 
 			.project_date
-				color: #ACB0C1
+				color: $sub_header_grey
 				padding-right: 10px
-				font-weight: bold
+				font-weight: 600
 			.project_tag
 				font-weight: bold
 				margin-left: 25px
@@ -103,18 +108,14 @@ body, h1, h2, h3, h4, h5, h6, p
 		.project_header
 			font-size: 18px
 			font-weight: bold
-			color: #3C3F4F
+			color: $header
 		.project_desc
-			color: #9CA0B4
+			color: $content_grey
 			font-size: 16px
 			line-height: 24px
 
-	
 
 @media screen and (min-width: 768px)
-	#logo_container
-		width: 350px
-		min-width: 350px
 
 
 	.logo_right_container
@@ -142,6 +143,7 @@ body, h1, h2, h3, h4, h5, h6, p
 
 	.project_container
 		max-width: 1000px
+		margin-top: 40px
 	
 		.project_img_container
 			box-sizing: border-box
@@ -164,8 +166,10 @@ body, h1, h2, h3, h4, h5, h6, p
 
 
 
+@media screen and (min-width: 1000px)
 
-
+	#projects .project_container .project_info_container
+		margin-top: 10px
 
 
 

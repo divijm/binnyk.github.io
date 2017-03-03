@@ -1,1 +1,6 @@
 /config.codekit
+/*.codekit
+/css/.sass-cache
+/css/.sass-cache/*
+/.DS_Store
+/*.afdesign
