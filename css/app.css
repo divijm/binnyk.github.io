@@ -15,7 +15,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 #logo_container {
   width: 230px;
   margin: 0 auto;
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding: 5px 0; }
 
 #logo_img {
   float: left;
