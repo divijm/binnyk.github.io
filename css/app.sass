@@ -1,3 +1,11 @@
+// ==========================
+
+		// THIS IS MOBILE FIRST!
+		// main styles are for mobile
+		// media queries scale upwards
+
+// ==========================
+
 $main_highlight: #F59F40
 $border_grey: #D5D5D5
 $sub_header_grey: #ACB0C1
@@ -14,8 +22,8 @@ body, h1, h2, h3, h4, h5, h6, p
 #horizontal
 	color: $border_grey
 	border-top: 1px solid $border_grey
-	margin-top: 100px
-	margin-bottom: 100px
+	margin-top: 40px
+	margin-bottom: 40px
 	width: 90%
 	max-width: 900px
 
@@ -23,7 +31,7 @@ body, h1, h2, h3, h4, h5, h6, p
 #logo_container
 	width: 230px
 	margin: 0 auto
-	margin-top: 100px
+	margin-top: 40px
 	padding: 5px 0
 
 
@@ -119,6 +127,11 @@ body, h1, h2, h3, h4, h5, h6, p
 
 @media screen and (min-width: 768px)
 
+	#logo_container
+		width: 230px
+		margin: 0 auto
+		margin-top: 40px
+		padding: 5px 0
 
 	.logo_right_container
 		padding-top: 6px
@@ -169,6 +182,21 @@ body, h1, h2, h3, h4, h5, h6, p
 
 
 @media screen and (min-width: 1000px)
+
+	#logo_container
+		width: 230px
+		margin: 0 auto
+		margin-top: 80px
+		padding: 5px 0
+
+	#horizontal
+		color: $border_grey
+		border-top: 1px solid $border_grey
+		margin-top: 80px
+		margin-bottom: 80px
+		width: 90%
+		max-width: 900px
+
 
 	#projects .project_container .project_info_container
 		margin-top: 10px

@@ -7,15 +7,15 @@ body, h1, h2, h3, h4, h5, h6, p {
 #horizontal {
   color: #D5D5D5;
   border-top: 1px solid #D5D5D5;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   width: 90%;
   max-width: 900px; }
 
 #logo_container {
   width: 230px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 40px;
   padding: 5px 0; }
 
 #logo_img {
@@ -95,6 +95,12 @@ body, h1, h2, h3, h4, h5, h6, p {
       line-height: 24px; }
 
 @media screen and (min-width: 768px) {
+  #logo_container {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 5px 0; }
+
   .logo_right_container {
     padding-top: 6px; }
 
@@ -132,5 +138,19 @@ body, h1, h2, h3, h4, h5, h6, p {
         font-size: 24px;
         font-weight: bold; } }
 @media screen and (min-width: 1000px) {
+  #logo_container {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 5px 0; }
+
+  #horizontal {
+    color: #D5D5D5;
+    border-top: 1px solid #D5D5D5;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 90%;
+    max-width: 900px; }
+
   #projects .project_container .project_info_container {
     margin-top: 10px; } }
