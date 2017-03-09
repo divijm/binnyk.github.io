@@ -43,12 +43,27 @@ section.about {
     margin-top: 20px; }
     .prog_icon_container .icons:last-child {
       margin-bottom: 20px; }
-    .prog_icon_container .icons img {
+    .prog_icon_container .icons .img_icon {
+      float: left;
       height: 30px;
-      float: left; }
+      width: 30px;
+      background-position: bottom;
+      background-size: cover; }
+      .prog_icon_container .icons .img_icon:hover {
+        background-position: top; }
+    .prog_icon_container .icons .git {
+      background-image: url("../img/social/github.png"); }
+    .prog_icon_container .icons .linkedin {
+      background-image: url("../img/social/linkedin.png"); }
+    .prog_icon_container .icons .codewars {
+      background-image: url("../img/social/codewars.png"); }
+    .prog_icon_container .icons .twitch {
+      background-image: url("../img/social/twitch.png"); }
+    .prog_icon_container .icons .icon_hover {
+      display: none; }
     .prog_icon_container .icons .icon_text {
       float: left;
-      margin-left: 14px; }
+      margin-left: 20px; }
       .prog_icon_container .icons .icon_text p {
         color: #9CA0B4;
         font-size: 16px;

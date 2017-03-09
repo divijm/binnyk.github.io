@@ -61,13 +61,32 @@ section.about
 		&:last-child
 			margin-bottom: 20px
 
-		img
-			height: 30px
+		.img_icon
 			float: left
+			height: 30px
+			width: 30px
+			background-position: bottom
+			background-size: cover
+			
+			&:hover
+				background-position: top
 		
+		.git
+			background-image: url("../img/social/github.png")
+		.linkedin
+			background-image: url("../img/social/linkedin.png")
+		.codewars
+			background-image: url("../img/social/codewars.png")
+		.twitch
+			background-image: url("../img/social/twitch.png")
+
+
+		.icon_hover
+			display: none
+
 		.icon_text
 			float: left
-			margin-left: 14px
+			margin-left: 20px
 			p
 				color: $content_grey
 				font-size: 16px
