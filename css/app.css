@@ -141,14 +141,10 @@ a {
         display: inline;
         margin: 0;
         padding: 0; }
-      .project_container .project_info_container ul .project_date {
-        color: #ACB0C1;
-        padding-right: 10px;
-        font-weight: 600; }
       .project_container .project_info_container ul .project_tag {
         color: #ACB0C1;
         font-weight: bold;
-        margin-left: 25px; }
+        margin-right: 25px; }
       .project_container .project_info_container ul .t_foundation:hover {
         color: #3498db; }
       .project_container .project_info_container ul .t_bootstrap:hover {
