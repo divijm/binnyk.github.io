@@ -64,6 +64,9 @@ h3, h4, h5, h6, p {
 .clearfix {
   overflow: auto; }
 
+a {
+  text-decoration: none; }
+
 #horizontal, #horizontal2 {
   color: #D5D5D5;
   border-top: 1px solid #D5D5D5;
@@ -143,22 +146,25 @@ h3, h4, h5, h6, p {
         padding-right: 10px;
         font-weight: 600; }
       .project_container .project_info_container ul .project_tag {
+        color: #ACB0C1;
         font-weight: bold;
         margin-left: 25px; }
-      .project_container .project_info_container ul .t_foundation {
+      .project_container .project_info_container ul .t_foundation:hover {
         color: #3498db; }
-      .project_container .project_info_container ul .t_bootstrap {
+      .project_container .project_info_container ul .t_bootstrap:hover {
         color: #9b59b6; }
-      .project_container .project_info_container ul .t_rails {
+      .project_container .project_info_container ul .t_rails:hover {
         color: #e74c3c; }
-      .project_container .project_info_container ul .t_node {
+      .project_container .project_info_container ul .t_node:hover {
         color: #2ecc71; }
-      .project_container .project_info_container ul .t_react {
+      .project_container .project_info_container ul .t_react:hover {
         color: #3498db; }
     .project_container .project_info_container .project_header {
       font-size: 18px;
       font-weight: bold;
       color: #3C3F4F; }
+    .project_container .project_info_container .project_header:hover {
+      color: #F59F40; }
     .project_container .project_info_container .project_desc {
       color: #9CA0B4;
       font-size: 16px;

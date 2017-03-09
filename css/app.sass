@@ -24,6 +24,9 @@ h3, h4, h5, h6, p
 .clearfix
 	overflow: auto
 
+a
+	text-decoration: none
+
 #horizontal, #horizontal2
 
 	color: $border_grey
@@ -114,24 +117,27 @@ h3, h4, h5, h6, p
 				padding-right: 10px
 				font-weight: 600
 			.project_tag
+				color: $sub_header_grey
 				font-weight: bold
 				margin-left: 25px
 			
-			.t_foundation
+			.t_foundation:hover
 				color: #3498db
-			.t_bootstrap
+			.t_bootstrap:hover
 				color: #9b59b6
-			.t_rails
+			.t_rails:hover
 				color: #e74c3c
-			.t_node
+			.t_node:hover
 				color: #2ecc71
-			.t_react
+			.t_react:hover
 				color: #3498db
 
 		.project_header
 			font-size: 18px
 			font-weight: bold
 			color: $header
+		.project_header:hover
+			color: $main_highlight
 		.project_desc
 			color: $content_grey
 			font-size: 16px
