@@ -18,7 +18,7 @@ section.about {
     max-width: 190px;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 40px; }
+    margin-bottom: 60px; }
     .about_container .wiz_container img {
       height: 72px; }
     .about_container .wiz_container #img_greater {
@@ -35,12 +35,11 @@ section.about {
 
 .prog_icon_container {
   box-sizing: border-box;
-  background-color: blue;
   height: auto;
-  width: 220px;
-  margin: 0 auto; }
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 40px; }
   .prog_icon_container .icons {
-    background-color: red;
     margin-top: 20px; }
     .prog_icon_container .icons:last-child {
       margin-bottom: 20px; }
@@ -71,6 +70,7 @@ body, h1, h2, h3, h4, h5, h6, p {
   max-width: 900px; }
 
 #horizontal2 {
+  margin-top: 80px;
   margin-bottom: 0px; }
 
 #logo_container {
@@ -156,7 +156,7 @@ body, h1, h2, h3, h4, h5, h6, p {
       line-height: 24px; }
 
 #footer {
-  width: 180px;
+  width: 110px;
   margin: 0 auto;
   padding: 40px 0; }
   #footer .footer_beanie {
@@ -222,7 +222,6 @@ body, h1, h2, h3, h4, h5, h6, p {
         font-weight: bold; }
 
   .about_container {
-    background-color: blue;
     max-width: 1000px;
     margin: 20px auto;
     padding: 15px;
@@ -236,7 +235,6 @@ body, h1, h2, h3, h4, h5, h6, p {
       font-size: 16px;
       line-height: 24px; }
     .about_container .wiz_container {
-      background-color: pink;
       box-sizing: border-box;
       float: left;
       margin: 0;
@@ -244,7 +242,6 @@ body, h1, h2, h3, h4, h5, h6, p {
       padding: 10px;
       width: 50%; }
       .about_container .wiz_container .img_box {
-        background-color: red;
         width: 320px;
         margin: 0 auto; }
         .about_container .wiz_container .img_box img {
@@ -253,7 +250,6 @@ body, h1, h2, h3, h4, h5, h6, p {
         .about_container .wiz_container .img_box #img_greater {
           margin: 0 30px; }
     .about_container .wiz_info_container {
-      background-color: yellow;
       box-sizing: border-box;
       float: left;
       margin: 0;
@@ -262,7 +258,6 @@ body, h1, h2, h3, h4, h5, h6, p {
       width: 50%; }
 
   .prog_info_container {
-    background-color: pink;
     box-sizing: border-box;
     float: left;
     margin: 0;
@@ -270,7 +265,6 @@ body, h1, h2, h3, h4, h5, h6, p {
     padding: 10px;
     width: 50%; }
     .prog_info_container .img_box {
-      background-color: red;
       width: 320px;
       margin: 0 auto; }
       .prog_info_container .img_box img {
@@ -280,17 +274,28 @@ body, h1, h2, h3, h4, h5, h6, p {
         margin: 0 30px; }
 
   .prog_icon_container {
-    background-color: yellow;
     box-sizing: border-box;
     float: left;
     margin: 0;
     max-width: 530px;
     padding: 10px;
-    width: 50%; }
-    .prog_icon_container .icons {
-      margin-left: 0px;
-      margin-top: 20px;
-      width: 250px; } }
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 30px; }
+    .prog_icon_container .icons_box {
+      width: 325px;
+      margin: 0 auto; }
+      .prog_icon_container .icons_box .icons {
+        display: inline-block;
+        width: 150px;
+        margin: 0;
+        margin-right: 10px;
+        margin-bottom: 10px; }
+        .prog_icon_container .icons_box .icons .icon_text {
+          float: left;
+          margin-left: 7px; }
+        .prog_icon_container .icons_box .icons:last-child {
+          margin-bottom: 10px; } }
 @media screen and (min-width: 1000px) {
   #logo_container {
     width: 230px;
@@ -310,5 +315,4 @@ body, h1, h2, h3, h4, h5, h6, p {
     margin-top: 10px; }
 
   .about_container {
-    background-color: green;
     width: 900px; } }
