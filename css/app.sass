@@ -6,6 +6,8 @@
 
 // ==========================
 
+@import 'about'
+
 $main_highlight: #F59F40
 $border_grey: #D5D5D5
 $sub_header_grey: #ACB0C1
@@ -19,13 +21,16 @@ body, h1, h2, h3, h4, h5, h6, p
 .clearfix
 	overflow: auto
 
-#horizontal
+#horizontal, #horizontal2
+
 	color: $border_grey
 	border-top: 1px solid $border_grey
 	margin-top: 40px
 	margin-bottom: 40px
 	width: 90%
 	max-width: 900px
+#horizontal2
+	margin-bottom: 0px
 
 // ======== HEADER and logo =========
 #logo_container
@@ -59,9 +64,8 @@ body, h1, h2, h3, h4, h5, h6, p
 		margin-top: 3px
 
 
-
 // ============ PROJECTS =============
-#projects
+.projects
 	padding: 0 15px
 
 .project_container
@@ -124,9 +128,37 @@ body, h1, h2, h3, h4, h5, h6, p
 			font-size: 16px
 			line-height: 24px
 
+// ============ Footer =============
+
+#footer
+	width: 180px	
+	margin: 0 auto
+	padding: 40px 0
+
+
+	.footer_beanie
+		height: 36px
+		float: left
+		
+	.footer_wizard
+		height: 36px
+		float: left
+
+	.footer_about
+		display: block
+		float: left
+		margin-left: 20px
+		margin-top: 0px
+		p
+			color: $content_grey
+			font-size: 16px
+			line-height: 24px
+			margin: 0
+			margin-top: 8px
 
 @media screen and (min-width: 768px)
 
+	// ======== HEADER and logo =========
 	#logo_container
 		width: 230px
 		margin: 0 auto
@@ -155,7 +187,7 @@ body, h1, h2, h3, h4, h5, h6, p
 		margin-left: 4px
 		margin-top: 3px
 
-
+	// ============ PROJECTS =============
 	.project_container
 		max-width: 1000px
 		margin-top: 40px
@@ -179,10 +211,101 @@ body, h1, h2, h3, h4, h5, h6, p
 				font-size: 24px
 				font-weight: bold
 
+	
+	// ============ About =============
+	.about_container
+		background-color: blue
+		max-width: 1000px
+		margin: 20px auto
+		padding: 15px
+		min-height: 100px
+
+
+		h2
+			font-size: 18px
+			font-weight: bold
+			color: $header
+		p
+			color: $content_grey
+			font-size: 16px
+			line-height: 24px
+
+		.wiz_container
+			background-color: pink
+			box-sizing: border-box
+			float: left
+			margin: 0
+			max-width: 500px
+			
+			padding: 10px
+			width: 50%
+
+
+			.img_box
+				background-color: red
+				
+				width: 320px
+				margin: 0 auto
+				img
+					height: 100px
+					margin: 0
+
+				#img_greater
+					margin: 0 30px
+
+
+		.wiz_info_container
+			background-color: yellow
+			box-sizing: border-box
+			float: left
+			margin: 0
+			max-width: 500px
+			padding: 10px
+			width: 50%
+
+	.prog_info_container
+		background-color: pink
+		box-sizing: border-box
+		float: left
+		margin: 0
+		max-width: 530px
+		
+		padding: 10px
+		width: 50%
+	
+
+		.img_box
+			background-color: red
+			
+			width: 320px
+			margin: 0 auto
+			img
+				height: 100px
+				margin: 0
+
+			#img_greater
+				margin: 0 30px
+
+
+	.prog_icon_container
+		background-color: yellow
+		box-sizing: border-box
+		float: left
+		margin: 0
+		max-width: 530px
+		padding: 10px
+		width: 50%
+		
+		.icons
+			// background-color: red
+			margin-left: 0px
+			margin-top: 20px
+			width: 250px
 
 
 @media screen and (min-width: 1000px)
 
+	// ======== HEADER and logo =========
 	#logo_container
 		width: 230px
 		margin: 0 auto
@@ -197,11 +320,18 @@ body, h1, h2, h3, h4, h5, h6, p
 		width: 90%
 		max-width: 900px
 
-
+	// ============ PROJECTS =============
 	#projects .project_container .project_info_container
 		margin-top: 10px
 
 
+	.about_container
+		// border: 1px solid $border_grey
+		// border-radius: 5.5px
+		// box-shadow: 0px 0px 19px 1px rgba(219,215,219,1)
+		// box-sizing: border-box	
+		background-color: green
+		width: 900px
 
 
 
