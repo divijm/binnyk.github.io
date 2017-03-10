@@ -34,3 +34,17 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-03-10 11:29:57 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 373ms (Views: 363.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-10 11:30:32 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
