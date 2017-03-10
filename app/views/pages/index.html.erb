@@ -1,10 +1,7 @@
-<h1>root page</h1>
-<%= link_to "about", about_path %>
-
 <header>
 	<!-- Main logo and img box -->
 	<section id="logo_container" class="clearfix">
-		<img id="logo_img" src="img/beanie.png" alt="Main logo">
+		<img id="logo_img" src="<%= asset_path "beanie.png" %>" alt="Main logo">
 		<div class="logo_right_container">
 			<h1 id="logo_title">Binny K</h1>
 			<h4 id="logo_subtitle">Full stack beanie developer</h4>
@@ -20,7 +17,7 @@
 		
 		<div class="project_img_container">
 			<a href="https://binnyk.github.io/cfa-ex-grav_design/">
-				<img src="img/grav_ss.png" alt="grav redesign site">
+				<img src="<%= asset_path "grav_ss.png" %>" alt="grav redesign site">
 			</a>
 		</div>
 		
@@ -37,7 +34,7 @@
 <section class="projects">
 	<section class="project_container clearfix">
 		<div class="project_img_container">
-			<img src="img/portfolio_ss.png" alt="portfolio screenshot">
+			<img src="<%= asset_path "portfolio_ss.png" %>">
 		</div>
 		<div class="project_info_container">
 			<ul class="project_tag_container">
@@ -53,7 +50,7 @@
 <section class="projects">
 	<section class="project_container clearfix">
 		<div class="project_img_container">
-			<img src="img/test_img3.png" alt="temp image">
+			<img src="<%= asset_path "test_img3.png" %>">
 		</div>
 		<div class="project_info_container">
 			<ul class="project_tag_container">
@@ -70,10 +67,26 @@
 <hr id="horizontal2">
 
 <section id="footer" class="clearfix">
-	<a href="about.html">
-		<img src="img/wizard.png" alt="wizard" class="footer_wizard">
+	<a href="/about">
+		<img src="<%= asset_path "wizard.png" %>" alt="wizard" class="footer_wizard">
 		<div class="footer_about">
 			<p>About</p>
 		</div>
 	</a>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ROom to type -->

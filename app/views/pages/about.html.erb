@@ -1,11 +1,7 @@
-<h1>about page</h1>
-
-<%= link_to "Home", root_path %>
-
 <header>
 	<!-- Main logo and img box -->
 	<section id="logo_container_about" class="clearfix">
-		<img id="logo_img" src="img/beanie.png" alt="Main logo">
+		<img id="logo_img" src="<%= asset_path "beanie.png" %>" alt="Main logo">
 		<div class="logo_right_container">
 			<h1 id="logo_title">Binny K</h1>
 			<h4 id="logo_subtitle">I like beanies...</h4>
@@ -21,9 +17,9 @@
 
 		<div class="wiz_container">
 			<div class="img_box">
-				<img src="img/beanie_blue.png" alt="beanie">
-				<img src="img/greater.png" alt="wizard" id="img_greater">
-				<img src="img/wizard_blue.png" alt="wizard">
+				<img src="<%= asset_path "beanie_blue.png" %>" alt="beanie">
+				<img src="<%= asset_path "greater.png" %>" alt="wizard" id="img_greater">
+				<img src="<%= asset_path "wizard_blue.png" %>" alt="wizard">
 			</div>
 		</div>
 
@@ -87,8 +83,8 @@
 <hr id="horizontal2">
 
 <section id="footer" class="clearfix">
-	<a href="index.html">
-		<img src="img/beanie.png" alt="wizard" class="footer_beanie">
+	<a href="/">
+		<img src="<%= asset_path "wizard.png" %>" alt="wizard" class="footer_beanie">
 		<div class="footer_about">
 			<p>Projects</p>
 		</div>

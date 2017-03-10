@@ -5,6 +5,8 @@
 /.DS_Store
 /*.afdesign
 /process
+*.DS_Store
+*.cache
 
 *.rbc
 capybara-*.html
