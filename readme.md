@@ -4,10 +4,10 @@
 # Overview
 
 * [Project brief](#project-brief)
-* [Design principles](#design-philosophy-&-principles)
+* [Design guidelines](#design-guidelines)
 * [Technology stack](#technology-stack)
 * [User stories](#user-stories)
-	* [Developer](###owner/developer)
+	* [Developer](#owner/developer)
 	* [Potential employer](###potential-employer)
 * [Design process](#design-process)
 	* [Planning](###planning)
@@ -23,7 +23,7 @@
 * Design, build and deploy a personal website.
 * Website will serve as a portfolio of projects for potential employers to see.
 
-# Design philosophy & principles
+# Design guidelines
 
 Rather than designing/coding as I ago, I wanted to follow a set of principles that would guide every aspect of the portfolio site. These principles/guidelines are:
 
