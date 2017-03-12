@@ -7724,3 +7724,17 @@ Processing by PagesController#about as HTML
 Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-03-12 16:03:22 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2017-03-12 16:03:22 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (94.9ms)
+  Rendered pages/index.html.erb within layouts/application (280.8ms)
+Completed 200 OK in 319ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 230ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
