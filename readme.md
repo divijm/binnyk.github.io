@@ -4,7 +4,7 @@
 # Overview
 
 * [Project brief](#project-brief)
-* [Design principles](#design-philosophy-principles)
+* [Design principles](#design-philosophy-&-principles)
 * [Technology stack](#technology-stack)
 * [User stories](#user-stories)
 	* [Developer](###owner/developer)
@@ -23,7 +23,7 @@
 * Design, build and deploy a personal website.
 * Website will serve as a portfolio of projects for potential employers to see.
 
-#Design philosophy & principles
+# Design philosophy & principles
 
 Rather than designing/coding as I ago, I wanted to follow a set of principles that would guide every aspect of the portfolio site. These principles/guidelines are:
 
@@ -51,11 +51,11 @@ Rather than designing/coding as I ago, I wanted to follow a set of principles th
 
 # Design process
 
-###Planning
+### Planning
 
 [Trello planning](https://trello.com/b/VAfEZdMI)
 
-###Inspiration
+### Inspiration
 
 [Justin Forcier](http://zertukis.com/)
 
@@ -74,7 +74,7 @@ Another flat design style portfolio website with a clear project structure.
 <img src="img/process/insp_amy2.png" alt="low fidelity" style="width: 350px;"/>
 
 
-###Low fidelity
+### Low fidelity
 Project section wireframes
 
 <img src="img/process/low_mobile_project.jpg" alt="low fidelity" style="width: 350px;"/>
@@ -85,7 +85,7 @@ About section wireframes
 <img src="img/process/low_mobile_about.jpg" alt="low fidelity" style="width: 350px;"/>
 <img src="img/process/low_desktop_about.jpg" alt="low fidelity" style="width: 350px;"/>
 
-###High fidelity
+### High fidelity
 Project section mockups
 
 <img src="img/process/high_mobile_project.png" alt="low fidelity" style="width: 350px;"/>
