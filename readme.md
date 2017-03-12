@@ -4,7 +4,7 @@
 # Overview
 
 * [Project brief](#project-brief)
-* [Design principles](#design-philosophy-&-principles)
+* [Design principles](#design-philosophy-principles)
 * [Technology stack](#technology-stack)
 * [User stories](#user-stories)
 	* [Developer](###owner/developer)
