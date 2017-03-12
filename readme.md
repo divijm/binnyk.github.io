@@ -7,16 +7,16 @@
 * [Design guidelines](#design-guidelines)
 * [Technology stack](#technology-stack)
 * [User stories](#user-stories)
-	* [Developer](#owner/developer)
-	* [Potential employer](###potential-employer)
+	* Owner / Developer
+	* Potential employer
 * [Design process](#design-process)
-	* [Planning](###planning)
-	* [Inspiration](###inspiration)
-	* [Low fidelity](###low-fidelity)
-	* [High fidelity](###high-fidelity)
+	* Planning
+	* Inspiration
+	* Low fidelity
+	* High fidelity
 * [Style guide](#style-guide)
-	* [Colour](###colour)
-	* [Typography](###typography)
+	* Colour
+	* Typography
 
 # Project brief
 
