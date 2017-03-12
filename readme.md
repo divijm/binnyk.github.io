@@ -61,8 +61,8 @@ Rather than designing/coding as I ago, I wanted to follow a set of principles th
 
 A clean flat design portfolio website that focuses on projects in the form of cards. 
 
-<img src="insp_justin1.png" alt="low fidelity" style="width: 350px;"/>
-<img src="insp_justin2.png" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/insp_justin1.png" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/insp_justin2.png" alt="low fidelity" style="width: 350px;"/>
 
 
 
@@ -70,32 +70,32 @@ A clean flat design portfolio website that focuses on projects in the form of ca
 
 Another flat design style portfolio website with a clear project structure. 
 
-<img src="insp_amy1.png" alt="low fidelity" style="width: 350px;"/>
-<img src="insp_amy2.png" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/insp_amy1.png" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/insp_amy2.png" alt="low fidelity" style="width: 350px;"/>
 
 
 ###Low fidelity
 Project section wireframes
 
-<img src="low_mobile_project.jpg" alt="low fidelity" style="width: 350px;"/>
-<img src="low_desktop_project.jpg" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/low_mobile_project.jpg" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/low_desktop_project.jpg" alt="low fidelity" style="width: 350px;"/>
 
 About section wireframes
 
-<img src="low_mobile_about.jpg" alt="low fidelity" style="width: 350px;"/>
-<img src="low_desktop_about.jpg" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/low_mobile_about.jpg" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/low_desktop_about.jpg" alt="low fidelity" style="width: 350px;"/>
 
 ###High fidelity
 Project section mockups
 
-<img src="high_mobile_project.png" alt="low fidelity" style="width: 350px;"/>
-<img src="high_desktop_project.png" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/high_mobile_project.png" alt="low fidelity" style="width: 350px;"/>
+<img src="img/process/high_desktop_project.png" alt="low fidelity" style="width: 350px;"/>
 
 
 About section mockups
 
-<img src="high_mobile_about.png" alt="high fidelity" style="width: 350px;"/>
-<img src="high_desktop_about.png" alt="high fidelity" style="width: 350px;"/>
+<img src="img/process/high_mobile_about.png" alt="high fidelity" style="width: 350px;"/>
+<img src="img/process/high_desktop_about.png" alt="high fidelity" style="width: 350px;"/>
 
 
 # Style guide
